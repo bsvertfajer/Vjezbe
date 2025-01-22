@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+	<head>
+
+		<meta charset="UTF-8">
+
+		<meta name="description" content="Vjezba_1">
+
+		<meta name="author" content="Bruno_Svertfajer">
+
+	</head>
+
+	<body>
+
+	<h1>Popis mobitela</h1>
+
+	<table>
+
+	<table border="1">
+
+	<tr> 
+
+		<th colspan="2">Samsung</th>
+
+		<th colspan="2">Apple</th>
+
+	</tr>
+
+	<tr> 
+
+		<td><img src="https://i.gadgets360cdn.com/products/large/galaxy-s24-ultra-797x800-1705519965.jpg?downsize=*:420&output-quality=80" alt="S24 ultra" width="100"></td>
+
+		<td>Galaxy S24 ultra</td>
+
+		<td><img src="https://i.gadgets360cdn.com/products/large/iphone-16-pro-max-634x800-1725909635.jpg?downsize=*:420&output-quality=80" alt="16 pro max" width="100"></td>
+
+		<td>Iphone 16 pro max</td>
+
+	</tr>
+
+	<tr>
+
+		<td><img src="https://i.gadgets360cdn.com/products/large/Samsung-Galaxy-S23-Ultra-782x800-1675282446.jpg?downsize=*:420&output-quality=80" alt="S23 ultra" width="100"></td>
+
+		<td>Galaxy S23 Ultra</td>
+
+		<td><img src="https://i.gadgets360cdn.com/products/large/iphone-15-pro-600x800-1694549252.jpg?downsize=*:420&output-quality=80" alt="15 pro" width="100"></td>
+
+		<td>Iphone 15 pro</td>
+
+	</tr>
+
+	</table>
+
+
+
+	</body>
+
+	</html>
