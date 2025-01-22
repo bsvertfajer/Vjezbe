@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="hr">
+<he <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Vjezba_12">
+    <meta name="keywords" content="Vjezba_12">
+    <meta name="author" content="Bruno Švertfajer">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .form-container {
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        textarea {
+            resize: vertical;
+            height: 100px;
+        }
+
+        .buttons {
+            display: flex;
+            gap: 10px;
+        }
+
+        button {
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <form class="form-container">
+        <label for="first-name">First Name *</label>
+        <input type="text" id="first-name" name="first-name" placeholder="Your first name.." required>
+        
+        <label for="last-name">Last Name *</label>
+        <input type="text" id="last-name" name="last-name" placeholder="Your last name.." required>
+        
+        <label for="email">Your E-mail *</label>
+        <input type="email" id="email" name="email" placeholder="Your e-mail.." required>
+        
+        <label for="country">Country</label>
+        <select id="country" name="country">
+            <option value="croatia">Croatia</option>
+            <option value="serbia">Serbia</option>
+            <option value="bosnia">Bosnia</option>
+            <option value="slovenia">Slovenia</option>
+        </select>
+        
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Write something.."></textarea>
+        
+        <div class="buttons">
+            <button type="submit">Send</button>
+            <button type="reset">Reset</button>
+        </div>
+    </form>
+</body>
+</html>
