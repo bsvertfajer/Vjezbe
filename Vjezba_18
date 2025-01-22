@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vjezba 18</title>
+    <style>
+        body {
+            margin: 20px;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            text-transform: uppercase;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        h1:hover {
+            text-shadow: 3px 3px 5px grey;
+        }
+
+        p.first {
+            letter-spacing: 2px;
+            word-spacing: 7px;
+            text-indent: 50px;
+            line-height: 1.6;
+        }
+
+        p.second {
+            text-indent: 50px;
+            margin-top: 20px;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Heading</h1>
+
+<p class="first">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla blandit finibus urna nec rhoncus. Vivamus sollicitudin ultrices auctor. Donec elementum ornare leo, nec cursus est rutrum non. Vivamus eu magna vel enim elementum vestibulum. Nunc ac vehicula odio, ut elementum lectus. Integer consequat, lectus vitae pellentesque rhoncus, quam nisl scelerisque metus, quis maximus neque mauris in dolor. Phasellus imperdiet est tempus metus convallis, ut malesuada felis consectetur.
+</p>
+
+<p class="second">
+    Proin facilisis et eros in ultricies. Ut eu lorem euismod, maximus metus vitae, ornare lacus. Etiam dictum mauris vel orci scelerisque luctus. Pellentesque eu libero porttitor, porttitor justo sed, posuere magna. Nam consectetur laoreet condimentum. Cras tincidunt dolor ullamcorper pulvinar euismod. Cras libero nunc, tempus sed rhoncus vitae, dictum vitae nunc. Nam ut nisi aliquam, imperdiet dui mattis, rhoncus felis.
+</p>
+
+</body>
+</html>
