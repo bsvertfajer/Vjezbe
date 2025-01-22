@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+	<style>
+		h1{font-family: Verdana, Helvetica, sans-serif;
+			font-weight: bold;
+			font-size: 24px; 
+			}
+		#tekst{font-family: Verdana, Helvetica, sans-serif;
+			font-size: 12px;
+		}
+		#citat{font-style: italic;
+				border: 1px solid #000;
+				margin: 6px;
+				font-weight: bold;
+				background-color: #FFFFCC;
+		}
+	</style>
+</head>
+<body>
+	<h1>Lorem ipsum</h1>
+	<p id="tekst">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+	<p id="citat">&quot;It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing&quot;</p>
+</body>
+</html>
