@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<head>
+
+	<meta charset="UTF-8">
+
+	<meta name="description" content="Vjezba_10">
+
+	<meta name="author" content="Bruno_Svertfajer">
+
+	<link rel="icon" type="image/x-icon" href="pumpkin.png">
+
+</head>
+
+<body>
+
+	<div style="width: 50%;float:left"> 
+
+		<video width="100%" height="100%" controls poster="nevera-r-static-7.jpg">
+
+		<source src="medium.mp4" type="video/mp4">
+
+		</video>
+
+	</div>
+
+	<div style="width: 50%;float:left">
+
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/cIdqAuIZp2k?si=ZxeGZ3nBXJTWiTcS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+	</div>
+
+</body>
+
+</html>
