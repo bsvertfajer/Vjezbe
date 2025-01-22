@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<head>
+
+	<meta charset="UTF-8">
+
+	<meta name="description" content="Vjezba_4">
+
+	<meta name="author" content="Bruno_Svertfajer">
+
+</head>
+
+<body>
+
+<h1>Popis mobitela</h1>
+
+<table>
+
+<table border="1">
+
+<tr> 
+
+	<th>Samsung</th>
+
+	<th>Apple</th>
+
+	<th>Huawei</th>
+
+	<th>Panasonic</th>
+
+</tr>
+
+<tr> 
+
+	<td>Galaxy A3</td>
+
+	<td>Iphone 6</td>
+
+	<td>Holly 4 plus</td>
+
+	<td>Elluga Eay 500</td>
+
+</tr>
+
+<tr> 
+
+	<td>Galaxy A3</td>
+
+	<td>Iphone 6</td>
+
+	<td>Holly 4 plus</td>
+
+	<td>Elluga Eay 500</td>
+
+</tr>
+
+<tr> 
+
+	<td>Galaxy A3</td>
+
+	<td>Iphone 6</td>
+
+	<td>Holly 4 plus</td>
+
+	<td>Elluga Eay 500</td>
+
+</tr>
+
+<tr> 
+
+	<td>Galaxy A3</td>
+
+	<td>Iphone 6</td>
+
+	<td>Holly 4 plus</td>
+
+	<td>Elluga Eay 500</td>
+
+</tr>
+
+<tr> 
+
+	<td>Galaxy A3</td>
+
+	<td>Iphone 6</td>
+
+	<td>Holly 4 plus</td>
+
+	<td>Elluga Eay 500</td>
+
+</tr>
+
+</table>
+
+
+
+</body>
+
+</html>
