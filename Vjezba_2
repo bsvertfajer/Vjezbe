@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<head>
+
+	<meta charset="UTF-8">
+
+	<meta name="description" content="Vjezba_2">
+
+	<meta name="author" content="Bruno_Svertfajer">
+
+</head>
+
+<body>
+
+	<h1>Welcome to Rimac</h1>
+
+	<p>Our story is the story of relentless determination, exceptional performance, and rapid growth.</p>
+
+	<h2>Introducing the Rimac Nevera R</h2>
+
+	<p>The new NEVERA R reflects our relentless pursuit of perfection, influenced by customers’ desires and the philosophy of the Rimac brand</p>
+
+	<img src="slike/nevera_r.jpg" alt="Rimac Nevera R" title="Nevera R">
+
+	<img src="https://assets.rimac-newsroom.com/1723537897-nevera_r_road_1.jpg" alt="Rimac Nevera R" title="Nevera R">
+
+
+
+
+
+
+
+</body>
+
+</html>
