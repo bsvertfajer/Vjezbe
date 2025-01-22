@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<head>
+
+	<meta charset="UTF-8">
+
+	<meta name="description" content="Vjezba_8">
+
+	<meta name="author" content="Bruno_Svertfajer">
+
+</head>
+
+<body>
+
+	<div> 
+
+		<p>Lorem ipsum <span style="color:red">dolor</span> sit amet, consectetur adipiscing elit</p>
+
+		<p>Ut enim ad minim veniam, <span style="color:red">quis</span> nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+
+	</div>
+
+	<p>Lorem ipsum <span style="color:red">dolor</span> sit amet, consectetur adipiscing elit</p>
+
+	<p>Ut enim ad minim veniam, <span style="color:red">quis</span> nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+
+</body>
+
+</html>
