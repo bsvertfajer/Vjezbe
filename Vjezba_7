@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+
+
+
+	<head>
+
+
+
+		<meta charset="UTF-8">
+
+
+
+		<meta name="description" content="Vjezba_6">
+
+
+
+		<meta name="author" content="Bruno_Svertfajer">
+
+
+
+	</head>
+
+
+
+	<body>
+
+
+
+		<h1>Uređena lista</h1>
+
+
+
+		<ol>
+
+
+
+			<li>Samsung</li>
+
+
+
+			<li>Apple</li>
+
+
+
+			<li>Huawei</li>
+
+
+
+			<li>Panasonic</li>
+
+
+
+			<li>Motorola</li>
+
+
+
+		</ol>
+
+
+
+		<h1>Neuređena lista</h1>
+
+
+
+		<ul>
+
+
+
+			<li>Samsung</li>
+
+
+
+			<li>Apple</li>
+
+
+
+			<li>Huawei</li>
+
+
+
+			<li>Panasonic</li>
+
+
+
+			<li>Motorola</li>
+
+
+
+		</ul>
+
+
+
+		<h1>Definicijska lista</h1>
+
+
+
+		<dl>
+
+
+
+			<dt>Samsung</dt>
+
+
+
+			<dd>Galaxy s23 ultra</dd>
+
+
+
+			<dd>Galaxy s23+</dd>
+
+
+
+			<dd>Galaxy s23</dd>
+
+
+
+			<dd>Galaxy z Fold 5</dd>
+
+
+
+			<dd>Galaxy z Flip 5</dd>
+
+
+
+		</dl>
+
+
+
+		<h1>Ugnježdena lista</h1>
+
+
+
+		<nav>
+
+
+
+			<ul class="nav navbar-nav">
+
+
+
+				<li class="dropdown"><a href="#">Apple</a>
+
+
+
+					<ul class="dropdown-menu">
+
+
+
+						<li><a href="#">Iphone 12</a></li>
+
+
+
+						<li><a href="#">Iphone 13</a></li>
+
+
+
+						<li><a href="#">Iphone 14 plus	</a></li>
+
+
+
+						<li><a href="#">Iphone 15 pro</a></li>
+
+
+
+					</ul>
+
+
+
+				</li>
+
+
+
+			</ul>
+
+
+
+		</nav>
+
+
+
+	</body>
+
+	<footer>&copy; Bruno Švertfajer <a href="https://github.com/bsvertfajer" target="blank">Github</a> &amp; Još nemam projekt. All rights reserved.</footer>
+
+
+
+	</html>
