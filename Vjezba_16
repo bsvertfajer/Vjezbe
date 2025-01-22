@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slika, Tekst i Video</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+
+        .container {
+            display: flex;
+            gap: 1%;
+            align-items: flex-start;
+        }
+
+        .container img {
+            max-width: 40%;
+            height: auto;
+            border: 2px solid #ddd;
+            margin: 0;
+        }
+
+        .text {
+            max-width: 55%;
+            padding: 10px;
+        }
+
+        .text h2 {
+            margin: 0 0 10px 0;
+        }
+
+        .text p {
+            margin: 0 0 10px 0;
+        }
+
+        video {
+            display: block;
+            margin-top: 10px;
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="watch.jpg">
+        <div class="text">
+            <h2>Naslov Teksta</h2>
+            <p>
+                Ovo je primjer teksta pored slike. Koristimo CSS model kutije za upravljanje marginama, paddingom i razmakom između elemenata. Razmak između slike i teksta je 1%.
+            </p>
+            <p>
+                Također, ispod ovog teksta postavljamo video koji ima razmak od teksta od 10px. Na ovaj način dobivamo urednu i preglednu stranicu.
+            </p>
+        </div>
+    </div>
+    <video controls>
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+        Vaš pretraživač ne podržava video element.
+    </video>
+</body>
+</html>
