@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vjezba 19</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        header {
+            background-image: url('banner.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            position: relative;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Dodata sjena na tekst */
+            margin: 0;
+        }
+
+        nav {
+            background-color: #444;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+
+        nav ul li a:hover {
+            background-color: #575757;
+        }
+
+        main {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 10px;
+        }
+
+        footer p {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Strojna obrada Švertfajer</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Početna stranica</a></li>
+            <li><a href="#">Novosti</a></li>
+            <li><a href="#">Kontakt</a></li>
+            <li><a href="#">O nama</a></li>
+            <li><a href="#">Galerija</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Vrhunske Usluge Strojne Obrade za Vaš Projekt</h1>
+        <p>Dobrodošli na stranicu posvećenu vrhunskoj strojnoj obradi! Specijalizirani smo za pružanje visokokvalitetnih usluga u industriji obrade metala, plastike i drugih materijala. Naša stručnost i moderna tehnologija omogućuju nam da isporučimo rješenja prilagođena vašim potrebama, bilo da se radi o jednostavnim dijelovima ili složenim mehaničkim sustavima.</p>
+    </main>
+    <footer>
+        <p>&copy; 2025 Bruno Švertfajer. Sva prava pridržana.</p>
+    </footer>
+</body>
+</html>
