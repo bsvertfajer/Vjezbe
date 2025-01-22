@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Projektni zadatak.">
+    <meta name="keywords" content="Vjezba_11">
+    <meta name="author" content="Bruno Švertfajer">
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <style>
+	body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+}
+
+.forma {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.radio-group {
+    margin-bottom: 15px;
+}
+
+.radio-group input {
+    margin-right: 5px;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+</style>
+</head>
+<body>
+    <form class="forma">
+        <label for="ime">Ime:</label>
+        <input type="text" id="ime" name="ime" required>
+        
+        <label for="prezime">Prezime:</label>
+        <input type="text" id="prezime" name="prezime" required>
+        
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <div class="radio-group">
+            <input type="radio" id="musko" name="spol" value="Muško" required>
+            <label for="musko">Muško</label>
+            <input type="radio" id="zensko" name="spol" value="Žensko" required>
+            <label for="zensko">Žensko</label>
+        </div>
+        
+        <div class="buttons">
+            <button type="submit">Pošalji</button>
+            <button type="reset">Poništi</button>
+        </div>
+    </form>
+</body>
+</html>
